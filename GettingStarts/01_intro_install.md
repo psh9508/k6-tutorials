@@ -257,7 +257,7 @@ $ docker run --rm -i grafana/k6 run - < script_with_options.js
 
 - k6 는 테스트 결과를 확인하는 2가지 옵션을 제공한다. 
   - 표준 출력으로 결과를 전달한다. 
-  - 더 상세한 분석및 시계열 데이터 분석을 수행하기 우해서 외부 출력을 위한 스트림밍 할 수 있다. 
+  - 더 상세한 분석및 시계열 데이터 분석을 수행하기 위해서 외부 출력을 위한 스트림밍 할 수 있다. 
 
 ![k6 output](imgs/k6-results-diagram.webp)
 
@@ -332,7 +332,7 @@ $ docker run --rm -i grafana/k6 run - < script_with_options.js
   - 시나리오의 상세를 나타낸다. 
   - 100%: 실행된 세그먼트의 실행율이다. 
   - 1 scenario: 시나리오 1이 수행되었음
-  - 20 max VUs: 는 최대 20 VUser가 생성되어 실행했음을 알 수 있따. 
+  - 20 max VUs: 는 최대 20 VUser가 생성되어 실행했음을 알 수 있다. 
   - 2m50s max duration: 최대 로드 주입시간 (여기에는 graceful stop이 포함된다.)
   - * default: 이번 테스트에서 수행한 시나리오 설명이다. 
     - 이 케이스에서는 3단계에 걸쳐 2m20초 동안 최대 20개의 루핑 VU(gracefulRampDown: 30초, gracefulStop: 30초) 수행
